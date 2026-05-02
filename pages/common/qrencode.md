@@ -1,6 +1,7 @@
 # qrencode
 
 > QR Code generator. Supports PNG and EPS.
+> See also: `qr`.
 > More information: <https://manned.org/qrencode>.
 
 - Convert a string to a QR code and save to an output file:
@@ -17,4 +18,4 @@
 
 - Convert input from pipe to a QR code and print it in terminal:
 
-`echo {{string}} | qrencode {{[-t|--type]}} ansiutf8`
+`echo {{string}} | qrencode {{[-t|--type]}} utf8`

@@ -2,7 +2,7 @@
 
 > 编译一个 Rust 包。类似于 `cargo build`，但您可以向编译器传递额外的选项。
 > 查看 `rustc --help` 获取所有可用选项。
-> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-rustc.html>.
+> 更多信息：<https://doc.rust-lang.org/cargo/commands/cargo-rustc.html>。
 
 - 构建包并向 `rustc` 传递选项：
 
@@ -10,11 +10,11 @@
 
 - 在 release 模式下构建构建，启用优化：
 
-`cargo rustc --release`
+`cargo rustc {{[-r|--release]}}`
 
 - 使用针对当前 CPU 的特定架构优化编译：
 
-`cargo rustc --release -- -C target-cpu=native`
+`cargo rustc {{[-r|--release]}} -- -C target-cpu=native`
 
 - 使用速度优化编译：
 
@@ -30,7 +30,7 @@
 
 - 构建特定的包：
 
-`cargo rustc --package {{package}}`
+`cargo rustc {{[-p|--package]}} {{package}}`
 
 - 仅构建指定的二进制文件：
 

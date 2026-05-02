@@ -1,7 +1,7 @@
 # picom
 
 > Compositor independiente para Xorg.
-> Más información: <https://manned.org/picom>.
+> Más información: <https://github.com/yshui/picom/blob/next/man/picom.1.adoc>.
 
 - Habilita `picom` durante una sesión:
 
@@ -9,7 +9,7 @@
 
 - Inicia `picom` como proceso en segundo plano:
 
-`picom -b`
+`picom {{[-b|--daemon]}}`
 
 - Utiliza un archivo de configuración personalizado:
 

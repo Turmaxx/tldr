@@ -8,12 +8,14 @@ The templates can be changed when necessary.
 
 [en](#en) •
 [ar](#ar) •
+[bg](#bg) •
 [bn](#bn) •
 [bs](#bs) •
 [ca](#ca) •
 [cs](#cs) •
 [da](#da) •
 [de](#de) •
+[el](#el) •
 [es](#es) •
 [fa](#fa) •
 [fi](#fi) •
@@ -33,7 +35,6 @@ The templates can be changed when necessary.
 [pt_PT](#pt_pt) •
 [ro](#ro) •
 [ru](#ru) •
-[sh](#sh) •
 [sr](#sr) •
 [sv](#sv) •
 [ta](#ta) •
@@ -74,14 +75,28 @@ The templates can be changed when necessary.
 
 ---
 
+### bg
+
+```markdown
+# example
+
+> Тази команда е псевдоним на `example`.
+
+- Виж документацията за оригиналната команда:
+
+`tldr example`
+```
+
+---
+
 ### bn
 
 ```markdown
 # example
 
-> এই কমান্ড একটি উপনাম `example`.
+> এই কমান্ডটি `example` - এর একটি উপনাম।
 
-- মূল কমান্ডের জন্য ডকুমেন্টেশন দেখুন:
+- মূল কমান্ডের ডকুমেন্টেশন দেখুন:
 
 `tldr example`
 ```
@@ -158,6 +173,20 @@ The templates can be changed when necessary.
 
 ---
 
+### el
+
+```markdown
+# example
+
+> Αυτή η εντολή είναι ψευδώνυμο της εντολής `example`.
+
+- Δείτε το εγχειρίδιο της αρχικής εντολής:
+
+`tldr example`
+```
+
+---
+
 ### es
 
 ```markdown
@@ -179,7 +208,7 @@ The templates can be changed when necessary.
 
 > این دستور یک نام مستعار از `example` است.
 
-- مشاهده مستندات دستور اصلی :
+- مشاهده مستندات دستور اصلی:
 
 `tldr example`
 ```
@@ -191,7 +220,7 @@ The templates can be changed when necessary.
 ```markdown
 # example
 
-> Tämä komento on `example`:n alias.
+> Tämä on alias komennolle `example`.
 
 - Näytä alkuperäisen komennon dokumentaatio:
 
@@ -275,9 +304,9 @@ The templates can be changed when necessary.
 ```markdown
 # example
 
-> 이 명령은 `example` 의 에일리어스 (별칭) 입니다.
+> 이 명령은 `example`의 별칭입니다.
 
-- 원본 명령의 도큐멘테이션 (설명서) 보기:
+- 자세한 내용은 원본 명령을 참고하세요:
 
 `tldr example`
 ```
@@ -317,7 +346,7 @@ The templates can be changed when necessary.
 ```markdown
 # example
 
-> यो आदेश `example` को उपनाम हो |
+> यो आदेश `example` को उपनाम हो।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 
@@ -424,20 +453,6 @@ The templates can be changed when necessary.
 
 ---
 
-### sh
-
-```markdown
-# example
-
-> Ova komanda je pseudonim za `example`.
-
-- Pogledaj dokumentaciju za originalnu komandu:
-
-`tldr example`
-```
-
----
-
 ### sr
 
 ```markdown
@@ -501,7 +516,7 @@ The templates can be changed when necessary.
 
 > Bu komut `example` için bir takma addır.
 
-- Asıl komutun belgelerini görüntüleyin:
+- Asıl komutun dokümantasyonunu görüntüleyin:
 
 `tldr example`
 ```
@@ -541,9 +556,9 @@ The templates can be changed when necessary.
 ```markdown
 # example
 
-> 这是 `example` 命令的一个别名。
+> 此命令为 `example` 的别名。
 
-- 原命令的文档在：
+- 查看原命令的文档：
 
 `tldr example`
 ```
@@ -555,9 +570,9 @@ The templates can be changed when necessary.
 ```markdown
 # example
 
-> 這是 `example` 命令的一個別名。
+> 此命令為 `example` 的別名。
 
-- 原命令的文件在：
+- 檢視原命令的文件：
 
 `tldr example`
 ```

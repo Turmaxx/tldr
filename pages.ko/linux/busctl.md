@@ -1,11 +1,11 @@
 # busctl
 
 > D-Bus 버스를 조사하고 모니터링합니다.
-> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/busctl.html>.
+> 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/latest/busctl.html>.
 
 - 버스의 모든 피어를 서비스 이름으로 표시:
 
-`busctl list`
+`busctl`
 
 - 버스 서비스, 프로세스 또는 버스 소유자의 프로세스 정보 및 자격 증명 표시 (매개변수를 지정하지 않으면):
 

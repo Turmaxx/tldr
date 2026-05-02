@@ -1,7 +1,7 @@
 # tb
 
 > 여러 보드에서 작업과 메모를 관리.
-> 더 많은 정보: <https://github.com/klaussinani/taskbook>.
+> 더 많은 정보: <https://github.com/klaudiosinani/taskbook#usage>.
 
 - 보드에 새 작업 추가:
 
@@ -13,11 +13,11 @@
 
 - 항목의 우선순위 수정:
 
-`tb --priority @{{항목_ID}} {{우선순위}}`
+`tb --priority @{{항목_id}} {{우선순위}}`
 
 - 항목 체크/체크 해제:
 
-`tb --check {{항목_ID}}`
+`tb --check {{항목_id}}`
 
 - 체크된 모든 항목 아카이브:
 
